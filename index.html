@@ -4,10 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Donut Clicker</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="https://orteil.dashnet.org/cookieclicker/"
+                >Cookie Clicker Tribute</a
+              >
+            </li>
+            <li>
+              <a href="https://orteil.dashnet.org/cookieclicker/"
+                >Cookie Clicker Tribute</a
+              >
+            </li>
+            <li>
+              <a href="https://orteil.dashnet.org/cookieclicker/"
+                >Cookie Clicker Tribute</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="manualClickerContainer">
+          <div>
+            <p>Donuts Clicked</p>
+            <span id="donutCounter">0</span>
+            <hr>
+            <button type="button" name="button" id="donutManualClicker">
+              Mmmm, Dooonuuuts.
+            </button>
+            <button type="button" name="button" id="reset">
+              No more donuts!
+            </button>
+          </div>
+        </section>
+
+        <section id="autoClickerContainer">
+          <div>
+            <p>Auto Clicker Cost</p>
+            <span id="autoClickerCost">0</span>
+          </div>
+          <div>
+            <p>Auto Clicker(s)</p>
+            <span id="autoClickerCounter">0</span>
+            <hr>
+            <button type="button" name="button" id="donutAutoClicker">
+              No more clicking!
+            </button>
+          </div>
+        </section>
+
+        <section id="donutMultiplierContainer">
+          <div>
+            <p>Donut Multiplier Cost</p>
+            <span id="donutMultiplierCost">0</span>
+          </div>
+          <div>
+            <p>Donut Multiplier(s)</p>
+            <span id="donutMultiplierCounter">0</span>
+            <hr>
+            <button type="button" name="button" id="donutMultiplierButton">
+              More Dooonuuuts!
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>
